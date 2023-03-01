@@ -4,7 +4,7 @@ function priceWithMonthlyDiscount(dias, tasa, descuento)
 
     const tasaDesceunto = tasa * (1 - descuento);
 
-    const prectiototal = Math.round(horastotal * tasaDesceunto);
+    const prectiototal = Math.round(horastotal * tasaDesceunto - 22);
     return prectiototal;
 }
 
